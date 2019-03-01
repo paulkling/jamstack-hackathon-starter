@@ -9,7 +9,8 @@ export function handler(event, context, callback) {
   callback(null, {
     statusCode: 200,
     body: JSON.stringify({
-      msg: 'Hello, World! 100 ' + Math.round(Math.random() * 100),
+
+      msg: 'Hello, World yes! ' + Math.round(Math.random() * 10),
       ...obj,
     }),
   })
